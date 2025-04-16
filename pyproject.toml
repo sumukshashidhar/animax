@@ -1,6 +1,6 @@
 [project]
 name = "animax"
-version = "0.1.0"
+version = "0.0.1"
 description = "Your personal anima foundry"
 authors = [
     { name = "Sumuk Shashidhar", email = "sumuks2@illinois.edu" }
@@ -9,7 +9,10 @@ readme = "README.md"
 requires-python = ">=3.11"
 license = { file = "LICENSE" }
 dependencies = [
+    "langfuse>=2.60.3",
+    "litellm>=1.66.1",
     "loguru>=0.7.3",
+    "pytest>=8.3.5",
 ]
 
 [build-system]
