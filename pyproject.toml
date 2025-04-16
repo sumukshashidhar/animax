@@ -1,6 +1,6 @@
 [project]
 name = "animax"
-version = "0.0.3"
+version = "0.0.1"
 description = "Your personal anima foundry"
 authors = [
     { name = "Sumuk Shashidhar", email = "sumuks2@illinois.edu" }
