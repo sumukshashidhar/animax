@@ -1,2 +1,2 @@
-# anima
-Your personal Anima Foundry
+# animax
+Your personal Animax Foundry

@@ -1,0 +1,24 @@
+[project]
+name = "animax"
+version = "0.1.0"
+description = "Your personal anima foundry"
+authors = [
+    { name = "Sumuk Shashidhar", email = "sumuks2@illinois.edu" }
+]
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+dependencies = [
+    "loguru>=0.7.3",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.urls]
+Homepage = "https://github.com/sumukshashidhar/anima"
+Repository = "https://github.com/sumukshashidhar/anima"
+
+[project.scripts]
+anima = "animax.__main__:main" 
