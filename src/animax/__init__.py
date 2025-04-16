@@ -1,5 +1,6 @@
 from importlib.metadata import version as _version
 from loguru import logger
+from .anima import Anima
 
 def get_version() -> str:
     """
