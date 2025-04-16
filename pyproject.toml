@@ -17,8 +17,8 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project.urls]
-Homepage = "https://github.com/sumukshashidhar/anima"
-Repository = "https://github.com/sumukshashidhar/anima"
+Homepage = "https://github.com/sumukshashidhar/animax"
+Repository = "https://github.com/sumukshashidhar/animax"
 
 [project.scripts]
-anima = "animax.__main__:main" 
+animax = "animax.__main__:main" 
