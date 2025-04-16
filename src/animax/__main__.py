@@ -1,6 +1,6 @@
 import argparse
 from loguru import logger
-from anima import get_version
+from animax import get_version
 
 
 def main() -> None:
