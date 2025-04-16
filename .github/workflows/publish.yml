@@ -35,7 +35,7 @@ jobs:
           
       - name: Run tests
         run: |
-          pytest -v --cov=animax tests/
+          pytest
 
   release-build:
     runs-on: ubuntu-latest
