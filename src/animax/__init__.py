@@ -1,6 +1,6 @@
 from importlib.metadata import version as _version
 from loguru import logger
-from .anima import Anima
+from .anima import Anima as Anima
 
 def get_version() -> str:
     """
@@ -12,4 +12,4 @@ def get_version() -> str:
         return animax_version
     except Exception as exc:
         logger.error(f"Failed to get animax version: {exc}")
-        return "unknown" 
+        return "unknown"

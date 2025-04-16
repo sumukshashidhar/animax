@@ -12,7 +12,10 @@ dependencies = [
     "langfuse>=2.60.3",
     "litellm>=1.66.1",
     "loguru>=0.7.3",
+    "pydantic>=2.11.3",
     "pytest>=8.3.5",
+    "python-dotenv>=1.1.0",
+    "tenacity>=8.2.3",
 ]
 
 [build-system]

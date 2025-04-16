@@ -1,4 +1,5 @@
 import argparse
+import sys
 from loguru import logger
 from animax import get_version
 
@@ -13,7 +14,7 @@ def main() -> None:
     subparsers = parser.add_subparsers(dest="command", help="Sub-commands")
 
     # version command
-    version_parser = subparsers.add_parser("version", help="Show anima version")
+    subparsers.add_parser("version", help="Show anima version")
 
     args = parser.parse_args()
 
@@ -30,4 +31,5 @@ if __name__ == "__main__":
     try:
         main()
     except Exception as exc:
-        logger.error(f"CLI failed: {exc}") 
+        logger.error(f"CLI failed: {exc}")
+        sys.exit(1)
